@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.woff2');
+}
+
+h1, h2, h3, h4, h5, h6, label, p {
+    font-family: 'Montserrat';
+}
