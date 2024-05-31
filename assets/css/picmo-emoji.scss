@@ -1,0 +1,41 @@
+li.picmo__categoryTab.picmo__categoryTabActive button{
+    color: #ffffff !important;
+    background: #4157a3!important;
+    border:none !important;
+}
+li.picmo__categoryTab.picmo__categoryTabActive button:hover{
+    background: #4157a3 !important;
+}
+.picmo__emojiArea h3{
+    font-size: .8em !important;
+    color: #727272 !important;
+}
+.picmo__emojiButton:focus {
+    border-radius: 10px !important;
+}
+.picmo__emojiContainer{
+    grid-template-columns: repeat(12, auto) !important;
+    grid-auto-rows: calc(1.7rem * 1.3) !important;
+}
+.picmo__emojiButton{
+    font-size: 1.7rem !important;
+}
+.picmo__picker.picmo__picker{
+    width: calc( 12 * 1.6rem * 1.3 + 2.75rem) !important;
+}
+
+@media (max-width: 600px) {
+    .picmo__emojiContainer{
+        grid-template-columns: repeat(9, auto) !important;
+        grid-auto-rows: calc(1.6rem * 1.3) !important;
+    }
+    .picmo__emojiButton{
+        font-size: 1.5rem !important;
+    }
+    .picmo__picker.picmo__picker{
+        width: calc( 10 * 1.4rem * 1.3 + 2.75rem) !important;
+    }
+    .picmo__popupContainer{
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,37 @@
+/*-----MODAL-------*/
+.btnClose {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 25px;
+  background: var(--color-azul-app);
+  border-radius: 100%;
+  opacity: 1;
+  border: 1px solid #0000005e;
+}
+.btnCloseIcon {
+  color: white;
+  position: relative;
+  bottom: 3px;
+  font-size: 20px;
+}
+.btnClose:hover {
+  opacity: 1;
+  background: var(--color-naranja-app);
+  -webkit-animation-name: fa-beat;
+  animation-name: fa-beat;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+  animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+  animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+  animation-duration: var(--fa-animation-duration, 2s);
+  -webkit-animation-iteration-count: var(
+    --fa-animation-iteration-count,
+    infinite
+  );
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
